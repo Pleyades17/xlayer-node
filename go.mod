@@ -1,6 +1,6 @@
 module github.com/0xPolygonHermez/zkevm-node
 
-go 1.21
+go 1.24.0
 
 require (
 	github.com/0xPolygonHermez/zkevm-data-streamer v0.2.3
@@ -27,9 +27,9 @@ require (
 	github.com/umbracle/ethgo v0.1.4-0.20230712173909-df37dddf16f0
 	github.com/urfave/cli/v2 v2.27.1
 	go.uber.org/zap v1.27.0
-	golang.org/x/crypto v0.18.0
-	golang.org/x/net v0.20.0
-	golang.org/x/sync v0.6.0
+	golang.org/x/crypto v0.45.0
+	golang.org/x/net v0.47.0
+	golang.org/x/sync v0.18.0
 	google.golang.org/grpc v1.60.1
 	google.golang.org/protobuf v1.32.0
 	gopkg.in/yaml.v2 v2.4.0
@@ -159,11 +159,11 @@ require (
 	github.com/xanzy/ssh-agent v0.3.3 // indirect
 	github.com/xrash/smetrics v0.0.0-20201216005158-039620a65673 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
-	golang.org/x/mod v0.14.0 // indirect
-	golang.org/x/sys v0.16.0 // indirect
-	golang.org/x/term v0.16.0 // indirect
-	golang.org/x/text v0.14.0 // indirect
-	golang.org/x/tools v0.17.0 // indirect
+	golang.org/x/mod v0.29.0 // indirect
+	golang.org/x/sys v0.38.0 // indirect
+	golang.org/x/term v0.37.0 // indirect
+	golang.org/x/text v0.31.0 // indirect
+	golang.org/x/tools v0.38.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20231120223509-83a465c0220f // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
